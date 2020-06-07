@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1Xe0Lp6UikegxeSJLUh4b47GeXiBZh9gG/view?usp=sharing'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Xe0Lp6UikegxeSJLUh4b47GeXiBZh9gG'
 export_file_name = 'export.pkl'
 
 classes = ["No Referrable Retinopathy","Referrable Diabetic Retinopathy Present"]
